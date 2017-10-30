@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infofactor.CaloriesControl", "Infofactor.CaloriesControl\Infofactor.CaloriesControl.csproj", "{E57E8707-FB1D-4D10-A8EF-97CA03E044DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infofactor.CaloriesControl.Tests", "Infofactor.CaloriesControl.Tests\Infofactor.CaloriesControl.Tests.csproj", "{0883FB76-10C8-498D-88F8-E873298DEDDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infofactor.CaloriesControl.DAL", "Infofactor.CaloriesControl.DAL\Infofactor.CaloriesControl.DAL.csproj", "{D91A9DBF-FD53-40A2-8231-EF9DFADBE2AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infofactor.CaloriesControl.DAL.Model", "Infofactor.CaloriesControl.DAL.Model\Infofactor.CaloriesControl.DAL.Model.csproj", "{1CC804AF-6AAF-40CC-8E11-CF5C1BEF5CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infofactor.CaloriesControl.Repository", "Infofactor.CaloriesControl.Repository\Infofactor.CaloriesControl.Repository.csproj", "{719B33D2-99FF-4EC5-82EF-9D70FB0D0301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infofactor.CaloriesControl.Repository.Base", "Infofactor.CaloriesControl.Repository.Base\Infofactor.CaloriesControl.Repository.Base.csproj", "{A405C95A-3FE7-457A-84FB-A6178BD484A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E57E8707-FB1D-4D10-A8EF-97CA03E044DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57E8707-FB1D-4D10-A8EF-97CA03E044DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57E8707-FB1D-4D10-A8EF-97CA03E044DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57E8707-FB1D-4D10-A8EF-97CA03E044DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0883FB76-10C8-498D-88F8-E873298DEDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0883FB76-10C8-498D-88F8-E873298DEDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0883FB76-10C8-498D-88F8-E873298DEDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0883FB76-10C8-498D-88F8-E873298DEDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D91A9DBF-FD53-40A2-8231-EF9DFADBE2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91A9DBF-FD53-40A2-8231-EF9DFADBE2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91A9DBF-FD53-40A2-8231-EF9DFADBE2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91A9DBF-FD53-40A2-8231-EF9DFADBE2AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC804AF-6AAF-40CC-8E11-CF5C1BEF5CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC804AF-6AAF-40CC-8E11-CF5C1BEF5CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC804AF-6AAF-40CC-8E11-CF5C1BEF5CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC804AF-6AAF-40CC-8E11-CF5C1BEF5CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719B33D2-99FF-4EC5-82EF-9D70FB0D0301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719B33D2-99FF-4EC5-82EF-9D70FB0D0301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719B33D2-99FF-4EC5-82EF-9D70FB0D0301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719B33D2-99FF-4EC5-82EF-9D70FB0D0301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A405C95A-3FE7-457A-84FB-A6178BD484A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A405C95A-3FE7-457A-84FB-A6178BD484A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A405C95A-3FE7-457A-84FB-A6178BD484A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A405C95A-3FE7-457A-84FB-A6178BD484A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26F44D68-1423-4C01-9ED4-B665CDBEF371}
+	EndGlobalSection
+EndGlobal

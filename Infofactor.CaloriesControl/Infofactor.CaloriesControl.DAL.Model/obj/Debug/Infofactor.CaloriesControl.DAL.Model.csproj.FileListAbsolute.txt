@@ -1,0 +1,11 @@
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\bin\Debug\Infofactor.CaloriesControl.DAL.Model.dll
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\bin\Debug\Infofactor.CaloriesControl.DAL.Model.pdb
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\obj\Debug\Infofactor.CaloriesControl.DAL.Model.csproj.CoreCompileInputs.cache
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\obj\Debug\Infofactor.CaloriesControl.DAL.Model.dll
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\obj\Debug\Infofactor.CaloriesControl.DAL.Model.pdb
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\bin\Debug\Infofactor.CaloriesControl.DAL.Model.dll.config
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\bin\Debug\EntityFramework.dll
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\bin\Debug\EntityFramework.xml
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL.Model\obj\Debug\Infofactor.CaloriesControl.DAL.Model.csprojResolveAssemblyReference.cache
