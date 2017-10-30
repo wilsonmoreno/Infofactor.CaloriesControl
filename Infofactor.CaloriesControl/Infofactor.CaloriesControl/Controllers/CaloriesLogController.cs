@@ -1,9 +1,5 @@
 ﻿using Infofactor.CaloriesControl.DAL.Model;
 using Infofactor.CaloriesControl.Repository.UnitofWork;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace Infofactor.CaloriesControl.Controllers
@@ -43,7 +39,8 @@ namespace Infofactor.CaloriesControl.Controllers
                 if(ModelState.IsValid)
                 {
                     this.unitOfWork.CaloriesRepository.Insert(newRow);
-                    return RedirectToAction("Index");
+                    this.unitOfWork.SaveChanges();
+                    //return RedirectToAction("Index");
                 }
             }
             catch
@@ -63,24 +60,55 @@ namespace Infofactor.CaloriesControl.Controllers
 
         // POST: CaloriesLog/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(CaloriesLog editRow)
         {
             try
             {
-                // TODO: Add update logic here
-
-                return RedirectToAction("Index");
+                if (ModelState.IsValid)
+                {
+                    var toEdit = this.unitOfWork.CaloriesRepository.GetById(editRow.Id);
+                    if (toEdit != null)
+                    {
+                        toEdit.Date = editRow.Date;
+                        toEdit.MealId = editRow.MealId;
+                        toEdit.NoPortion = editRow.NoPortion;
+                        toEdit.UserId = editRow.UserId;
+                        this.unitOfWork.CaloriesRepository.Update(toEdit);
+                    }
+                        
+                    this.unitOfWork.SaveChanges();
+                    //return RedirectToAction("Index");
+                }
             }
             catch
             {
                 return View();
             }
+
+            return View(editRow);
         }
 
         // GET: CaloriesLog/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var todelete = this.unitOfWork.CaloriesRepository.GetById(id);
+                    if (todelete != null)
+                    {
+                        this.unitOfWork.CaloriesRepository.Delete(id);
+                    }
+                    this.unitOfWork.SaveChanges();
+                }
+            }
+            catch
+            {
+                return View();
+            }
+
+            return View(id);
         }
 
         // POST: CaloriesLog/Delete/5
@@ -98,5 +126,7 @@ namespace Infofactor.CaloriesControl.Controllers
                 return View();
             }
         }
+
+
     }
 }

@@ -1,13 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Infofactor.CaloriesControl.Controllers;
+﻿using Infofactor.CaloriesControl.Repository.UnitofWork;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Infofactor.CaloriesControl.Repository.Repositories;
-using Infofactor.CaloriesControl.Repository.UnitofWork;
-using Microsoft.Practices.Unity;
 using System.Web.Mvc;
 
 namespace Infofactor.CaloriesControl.Controllers.Tests
@@ -58,6 +51,44 @@ namespace Infofactor.CaloriesControl.Controllers.Tests
             // Assert
             Assert.IsNotNull(result);
             Assert.IsNotNull(result.Model);
+        }
+
+        [TestMethod()]
+        public void EditTest()
+        {
+            IUnitOfWork unityOfWork = new UnitOfWork();
+            // Arrange
+            CaloriesLogController controller = new CaloriesLogController(unityOfWork);
+
+            DAL.Model.CaloriesLog kcal = new DAL.Model.CaloriesLog()
+            {
+                Date = new DateTime(2017, 10, 28),
+                MealId = 5,
+                NoPortion = 5,
+                UserId = 2,
+                Id = 1
+            };
+            // Act
+            ViewResult result = controller.Edit(kcal) as ViewResult;
+
+            // Assert
+            Assert.IsNotNull(result);
+            Assert.IsNotNull(result.Model);
+        }
+
+        [TestMethod()]
+        public void DeleteTest()
+        {
+            IUnitOfWork unityOfWork = new UnitOfWork();
+            // Arrange
+            CaloriesLogController controller = new CaloriesLogController(unityOfWork);
+         
+            // Act
+            ViewResult result = controller.Delete(1) as ViewResult;
+
+            // Assert
+            Assert.IsNotNull(result);
+            //Assert.IsNotNull(result.);
         }
     }
 }
