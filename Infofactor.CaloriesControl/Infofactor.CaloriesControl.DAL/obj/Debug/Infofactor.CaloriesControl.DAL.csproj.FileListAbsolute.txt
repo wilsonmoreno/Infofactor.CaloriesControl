@@ -12,3 +12,5 @@ E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofac
 E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL\bin\Debug\EntityFramework.xml
 E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL\bin\Debug\EntityFramework.SqlServer.xml
 E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL\obj\Debug\Infofactor.CaloriesControl.DAL.csprojResolveAssemblyReference.cache
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL\obj\Debug\Infofactor.CaloriesControl.DAL.Migrations.seed.resources
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl.DAL\obj\Debug\Infofactor.CaloriesControl.DAL.csproj.GenerateResource.Cache

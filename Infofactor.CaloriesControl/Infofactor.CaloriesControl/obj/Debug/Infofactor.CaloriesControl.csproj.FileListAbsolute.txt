@@ -111,3 +111,6 @@ E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofac
 E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl\bin\Microsoft.Practices.Unity.xml
 E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl\bin\Microsoft.Practices.Unity.Configuration.xml
 E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl\bin\Infofactor.CaloriesControl.DAL.dll
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl\bin\Infofactor.CaloriesControl.DAL.pdb
+E:\Developer\Repos\Infofactor.CaloriesControl\Infofactor.CaloriesControl\Infofactor.CaloriesControl\bin\Infofactor.CaloriesControl.DAL.dll.config
